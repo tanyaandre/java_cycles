@@ -60,7 +60,7 @@ public class StatsService {
         int minMonth = 1;
         for (int proceed : proceeds) {
             month++;
-            if (proceedsMin <= proceed) {
+            if (proceedsMin >= proceed) {
                 proceedsMin = proceed;
                 minMonth = month;
             }
